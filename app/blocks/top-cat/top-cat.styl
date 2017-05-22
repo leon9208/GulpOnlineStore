@@ -1,0 +1,18 @@
+.top-cat
+  padding 10px
+.top-cat__list
+  background-color lightColor
+  border-radius 5px
+  text-align center
+  .top-cat__item
+    border-bottom 1px solid darken(lightColor, changeColor)
+    .top-cat__link
+      font-family titleFont
+      color baseColor
+      text-transform uppercase
+      &:focus
+        outline 0
+      &:hover
+        color baseColor
+    &:last-child
+      border 0

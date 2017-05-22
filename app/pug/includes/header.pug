@@ -1,0 +1,68 @@
+header.site__header.header
+  nav.navbar.navbar-inverse.navbar-fixed-top.top-nav
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='#')
+          img(alt='Logo' src='assets/img/logo.png')
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav.top-nav__list
+          li.top-nav__item
+            a.top-nav__link(href='#')
+              i.fa.fa-home.top-nav__fa(aria-hidden='true')
+              | Главная 
+              span.sr-only (current)
+          li.dropdown.top-nav__item
+            a.dropdown-toggle.top-nav__link(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+              i.fa.fa-user-circle-o.top-nav__fa(aria-hidden='true')
+              | Личный кабинет 
+              span.caret
+            ul.dropdown-menu
+              li
+                a(href='#') Авторизация
+              li.divider(role='separator')
+              li
+                a(href='#') Регистрация
+          li.top-nav__item
+            a.top-nav__link(href='#')
+              i.fa.fa-heart.top-nav__fa(aria-hidden='true')
+              | Мои закладки
+          li.top-nav__item
+            a.top-nav__link(href='#')
+              i.fa.fa-shopping-cart.top-nav__fa(aria-hidden='true')
+              | Корзина
+          li.top-nav__item
+            a.top-nav__link(href='#')
+              i.fa.fa-check-square-o.top-nav__fa(aria-hidden='true')
+              | Оформление заказа
+        .top-cat
+          ul.nav.navbar-nav.hidden-sm.hidden-md.hidden-lg.top-cat__list
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+            li.top-cat__item
+              a.top-cat__link(href='#') Category menu item
+        .navbar-text.navbar-right.top-contacts
+          .top-contacts__item
+            i.fa.fa-phone-square.top-contacts__fa(aria-hidden='true')
+            | +7 (123) 456-78-90
+          .top-contacts__item
+            | Shop address text
+        .navbar-text.navbar-right.top-search
+          form.search-form
+            input.search-form__input(type='text', placeholder='Поиск товара по категориям')
+            button.button(type='submit')
+              i.fa.fa-search(aria-hidden='true')

@@ -1,0 +1,126 @@
+.body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  color: #242424;
+  font-size: 14px;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.button {
+  display: inline-block;
+  background-color: #f24f2c;
+  border: 0;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+}
+.button:focus {
+  outline: 0;
+}
+.button:hover {
+  background-color: #d8310d;
+}
+.content {
+  padding-top: 80px;
+}
+.footer {
+  background-color: #242424;
+  color: #fff;
+}
+html {
+  height: 100%;
+}
+.search-form {
+  width: 290px;
+  height: 36px;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.search-form__input {
+  border: 0;
+  width: 250px;
+  height: 36px;
+  padding: 5px;
+}
+.site {
+  background-color: #fff;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1920px;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.top-cat {
+  padding: 10px;
+}
+.top-cat__list {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.top-cat__list .top-cat__item {
+  border-bottom: 1px solid #ccc;
+}
+.top-cat__list .top-cat__item .top-cat__link {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #242424;
+  text-transform: uppercase;
+}
+.top-cat__list .top-cat__item .top-cat__link:focus {
+  outline: 0;
+}
+.top-cat__list .top-cat__item .top-cat__link:hover {
+  color: #242424;
+}
+.top-cat__list .top-cat__item:last-child {
+  border: 0;
+}
+.top-contacts {
+  margin: 0;
+  padding-right: 15px;
+}
+.top-contacts__item {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f24f2c;
+  font-size: 17px;
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .top-contacts__item {
+    text-align: center;
+  }
+}
+.top-contacts__fa {
+  margin-right: 5px;
+}
+.top-nav {
+  margin: 0;
+  padding: 10px 0 5px;
+  min-height: 80px;
+}
+.top-nav__list {
+  text-align: center;
+}
+.top-nav__fa {
+  margin-right: 5px;
+}
+.top-search {
+  margin: 0;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .top-search {
+    padding: 20px 0;
+  }
+}
