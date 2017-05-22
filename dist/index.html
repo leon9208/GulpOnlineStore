@@ -12,7 +12,49 @@
   <body class="body">
     <div class="site">
       <header class="site__header header">
-        <h1>Header</h1>
+        <nav class="navbar navbar-inverse navbar-fixed-top top-nav">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#"><img alt="Logo" src="assets/img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav top-nav__list">
+                <li class="top-nav__item"><a class="top-nav__link" href="#"><i class="fa fa-home top-nav__fa" aria-hidden="true"></i>Главная <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown top-nav__item"><a class="dropdown-toggle top-nav__link" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o top-nav__fa" aria-hidden="true"></i>Личный кабинет <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Авторизация</a></li>
+                    <li class="divider" role="separator"></li>
+                    <li><a href="#">Регистрация</a></li>
+                  </ul>
+                </li>
+                <li class="top-nav__item"><a class="top-nav__link" href="#"><i class="fa fa-heart top-nav__fa" aria-hidden="true"></i>Мои закладки</a></li>
+                <li class="top-nav__item"><a class="top-nav__link" href="#"><i class="fa fa-shopping-cart top-nav__fa" aria-hidden="true"></i>Корзина</a></li>
+                <li class="top-nav__item"><a class="top-nav__link" href="#"><i class="fa fa-check-square-o top-nav__fa" aria-hidden="true"></i>Оформление заказа</a></li>
+              </ul>
+              <div class="top-cat">
+                <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg top-cat__list">
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                  <li class="top-cat__item"><a class="top-cat__link" href="#">Category menu item</a></li>
+                </ul>
+              </div>
+              <div class="navbar-text navbar-right top-contacts">
+                <div class="top-contacts__item"><i class="fa fa-phone-square top-contacts__fa" aria-hidden="true"></i>+7 (123) 456-78-90</div>
+                <div class="top-contacts__item">Shop address text</div>
+              </div>
+              <div class="navbar-text navbar-right top-search">
+                <form class="search-form">
+                  <input class="search-form__input" type="text" placeholder="Поиск товара по категориям">
+                  <button class="button" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
       </header>
       <div class="site__content content">
         <h1>Index</h1>
