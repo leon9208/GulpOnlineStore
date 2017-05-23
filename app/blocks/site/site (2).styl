@@ -1,0 +1,25 @@
+.site
+  background-color lightColor
+  width 100%
+  min-width siteMinWidth
+  max-width siteMaxWidth
+  min-height 100%
+  margin 0 auto
+  position relative
+  padding-bottom stickyFooterHeight
+  +responsive(md)
+    padding-bottom round(stickyFooterHeight * 1.4)
+  +responsive(sm)
+    padding-bottom round(stickyFooterHeight * 2.8)
+.site__footer
+  width 100%
+  min-width siteMinWidth
+  max-width siteMaxWidth
+  position absolute
+  bottom 0
+  overflow hidden
+  height stickyFooterHeight
+  +responsive(md)
+    height round(stickyFooterHeight * 1.4)
+  +responsive(sm)
+    height round(stickyFooterHeight * 2.8)
