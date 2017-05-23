@@ -1,0 +1,69 @@
+.main
+  height 600px
+  position relative
+  +responsive(sm)
+    height 400px
+.main__left
+  float left
+  width 25%
+  position relative
+  +responsive(md)
+    width 30%
+  +responsive(sm)
+    display none
+.main__right
+  background lightColor url(../img/bg/bg_main.jpg) center top no-repeat
+  background-size cover
+  float right
+  width 75%
+  position relative
+  +responsive(md)
+    width 70%
+  +responsive(sm)
+    float none
+    width auto
+.main__cat
+  background-color accentColor
+  height 600px
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+  +responsive(sm)
+    height 400px
+.main__link
+  display block
+  border-bottom 1px solid darken(accentColor, changeColor)
+  font-family titleFont
+  color lightColor
+  font-size round(fontSize * 1.2)
+  padding 8px 12px
+  transition-duration .5s
+  &:last-child
+    border 0
+  &:focus
+    outline 0
+  &:hover
+    color lightColor
+    text-decoration none
+    padding 8px 4px 8px 20px
+.main__header
+  height 600px
+  text-align center
+  display flex
+  flex-direction column
+  align-items center
+  justify-content center
+  +responsive(sm)
+    height 400px
+.main__title
+  color accentColor
+  font-size round(fontSize * 4.5)
+  letter-spacing 5px
+  margin 0
+  padding 0 10px 15px
+  border-bottom 2px solid accentColor
+  +responsive(md)
+    font-size round(fontSize * 3)
+  +responsive(sm)
+    font-size round(fontSize * 2.5)
