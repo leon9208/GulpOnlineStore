@@ -1,0 +1,38 @@
+.product
+  max-width 270px
+  margin 0 auto
+  padding-bottom 40px
+.product__thumb
+  max-width 270px
+  max-height 180px
+  overflow hidden
+.product__img
+  display block
+  width 100%
+  height auto
+.product__title
+  margin 0
+.product__link
+  display block
+  font-family titleFont
+  font-size round(fontSize * 1.7)
+  color accentColor
+  text-align center
+  padding 15px 0 10px
+  transition-duration .5s
+  &:focus
+    outline 0
+  &:hover
+    color darken(accentColor, changeColor)
+    text-decoration none
+.product__desc
+  height round(fontSize * lineHeight * 3)
+  overflow hidden
+  p
+    text-align center
+    margin 0
+.product__price
+  font-family titleFont
+  font-size round(fontSize * 1.3)
+  text-align center
+  padding 10px 0
