@@ -63,6 +63,26 @@
   display: table;
   clear: both;
 }
+.contacts {
+  background: #242424 url("../img/bg/bg_contacts.jpg") center top no-repeat;
+  background-size: cover;
+}
+.contacts__body {
+  padding: 50px 0;
+  position: relative;
+  z-index: 2;
+}
+.contacts__item {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.contacts__fa {
+  font-size: 17px;
+  margin-right: 10px;
+}
 .content {
   padding-top: 80px;
 }
@@ -313,6 +333,9 @@ html {
   border-bottom: 1px solid #f24f2c;
   margin: 0;
   padding-bottom: 5px;
+}
+.section__title_color_light {
+  color: #fff;
 }
 .site {
   background-color: #fff;
