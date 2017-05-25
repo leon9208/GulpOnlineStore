@@ -243,6 +243,55 @@ html {
     font-size: 35px;
   }
 }
+.map {
+  padding: 50px 0;
+}
+.map__wrap {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 30px;
+}
+.map__tabs {
+  padding: 30px 0 50px;
+}
+.map__list {
+  border-bottom: 1px solid #f24f2c;
+}
+.map__item.active > .map__link {
+  background-color: #f24f2c;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+}
+.map__item.active > .map__link:focus,
+.map__item.active > .map__link:hover {
+  background-color: #f24f2c;
+  color: #fff;
+  border: 0;
+}
+.map__item > .map__link {
+  color: #f24f2c;
+  border: 0;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+}
+.map__item > .map__link:focus {
+  outline: 0;
+}
+.map__item > .map__link:hover {
+  background: transparent;
+  color: #d8310d;
+  border: 0;
+  border-radius: 0;
+}
+.map__title {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #242424;
+  font-size: 18px;
+  margin: 10px 0;
+}
 .overlay {
   width: 100%;
   height: 100%;
