@@ -1,18 +1,26 @@
 {
-  "name": "gulp_online_store",
+  "name": "gulp-online-store",
+  "description": "Online store development with Gulp",
   "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mikorn",
+  "homepage": "https://webmikorn.ru",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikorn/gulp-project.git"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.18.8",
     "del": "^2.2.2",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.0",
     "gulp-imagemin": "^3.2.0",
@@ -21,8 +29,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-stylus": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "imagemin-pngquant": "^5.0.0",
+    "gulp-uglify": "^2.1.2",
+    "imagemin-pngquant": "^5.0.1",
     "pug": "^2.0.0-rc.1"
   }
 }
