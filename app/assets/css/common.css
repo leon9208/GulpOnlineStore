@@ -82,12 +82,12 @@
   font-size: 17px;
   margin-right: 10px;
 }
+.content {
+  padding-top: 80px;
+}
 .copyright {
   color: #fff;
   text-align: right;
-}
-.content {
-  padding-top: 80px;
 }
 .footer {
   background-color: #242424;
@@ -100,6 +100,9 @@
   height: 1px;
   margin: 15px 0;
 }
+html {
+  height: 100%;
+}
 .link {
   color: #242424;
 }
@@ -109,9 +112,6 @@
 .link:hover {
   color: #242424;
   text-decoration: none;
-}
-html {
-  height: 100%;
 }
 .main {
   height: 600px;
@@ -158,19 +158,14 @@ html {
 .main__cat {
   background-color: #f24f2c;
   height: 600px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 @media only screen and (max-width: 767px) {
   .main__cat {
@@ -204,19 +199,14 @@ html {
 .main__header {
   height: 600px;
   text-align: center;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 @media only screen and (max-width: 767px) {
   .main__header {
@@ -353,12 +343,10 @@ html {
   height: 36px;
   margin: auto;
   position: relative;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 .search-form__input {
   border: 0;

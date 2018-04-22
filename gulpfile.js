@@ -81,7 +81,7 @@ var paths = {
       dest: './dist'
     },
     css: {
-      src: './app/assets/css/*.min.css',
+      src: './app/assets/css/*.css',
       dest: './dist/assets/css'
     },
     js: {
